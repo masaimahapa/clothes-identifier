@@ -7,6 +7,9 @@ from fastai.vision import *
 
 app= Flask(__name__)
 
+def main():
+    app.run()
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -38,4 +41,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run()
+    main()
+    
