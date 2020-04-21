@@ -1,5 +1,4 @@
 Flask
 gunicorn
 numpy
-torch==1.4.0
 fastai
